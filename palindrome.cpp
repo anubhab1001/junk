@@ -1,6 +1,6 @@
 //Given an integer x, return true if x is a palindrome, and false otherwise.
 //Beware of overflow when you reverse the integer.
-
+//solution 
 class Solution {
 public:
     bool isPalindrome(int x) {
