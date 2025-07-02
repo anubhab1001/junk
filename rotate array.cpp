@@ -20,6 +20,7 @@ Constraints:
 */
 
 //O(N)
+// circular array concept
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -33,3 +34,12 @@ public:
      } 
     }
 };
+
+/*
+Reverse the entire array:
+Example: ( [1,2,3,4,5,6,7] ) → ( [7,6,5,4,3,2,1] )
+Reverse the first ( k ) elements:
+Example: ( [7,6,5,4,3,2,1] ) → ( [5,6,7,4,3,2,1] )
+Reverse the last ( n-k ) elements:
+Example: ( [5,6,7,4,3,2,1] ) → ( [5,6,7,1,2,3,4] )
+    */
